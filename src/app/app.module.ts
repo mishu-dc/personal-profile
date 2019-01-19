@@ -15,6 +15,7 @@ import { AchievementSectionComponent } from './achievement-section/achievement-s
 import { CertificationSectionComponent } from './certification-section/certification-section.component';
 import { PublicationSectionComponent } from './publication-section/publication-section.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { BaseComponent } from './base/base.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     AchievementSectionComponent,
     CertificationSectionComponent,
     PublicationSectionComponent,
+    BaseComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,2 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+.external-link {
+    color:#0087FF !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
